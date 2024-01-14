@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bcc2b620.css",
+    "main.js": "/static/js/main.1f5da46d.js",
+    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/kiraa.png": "/static/media/kiraa.7017da715c81d1c4d1cb.png",
+    "index.html": "/index.html",
+    "main.bcc2b620.css.map": "/static/css/main.bcc2b620.css.map",
+    "main.1f5da46d.js.map": "/static/js/main.1f5da46d.js.map",
+    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcc2b620.css",
+    "static/js/main.1f5da46d.js"
+  ]
+}
