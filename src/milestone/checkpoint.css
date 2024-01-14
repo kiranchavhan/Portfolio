@@ -1,0 +1,31 @@
+.checkpoint{
+  display: flex;
+  max-width: fit-content;
+  align-items: center;
+}
+.checkpoint-circle-title{
+  display: flexbox;
+  width: 100px;
+}
+.checkpoint-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #0f0a64;
+}
+
+.checkpoint-title {
+  margin: 0;
+  display: flexbox;
+  justify-content: center;
+}
+
+.checkpoint-description {
+  margin:  5px 5px 45px 5px;
+  font-size: 14px;
+  justify-content: center;
+  max-width: fit-content;
+  max-height: fit-content;
+  border-radius: 20px;
+  border: 1px solid #0f0a64;
+}
