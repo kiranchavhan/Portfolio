@@ -9,30 +9,31 @@
 
 .profile{
     border-radius: 100%;
-    height: 25vh;
-    width: 25vh;
+    height: 20vh;
+    width: 20vh;
     border-width: 15px;
     border-style: solid;
     border-color: white;
     position: absolute;
-    z-index: 1;
+    z-index: 3;
     margin: -25vh 0 0 -75vh;
 }
  .box{
     border-color: blue;
-    height: 65vh;
-    width: 95vh;
+    height: 50vh;
+    width: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 1vh 1vh rgb(252, 249, 249);
     border-radius: 85% 15% 70% 30% / 21% 67% 33% 79% ;
-    position: relative;
-    margin-top: -5vh;
-    margin-left: 5vh;
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: -5vh;
     background: 
     linear-gradient(95deg,rgb(216, 61, 219)  ,rgb(98, 4, 156));
     color: white;
+    z-index: 3;
 } 
 
 .intro{
@@ -47,4 +48,25 @@
 h1{font-size: 3em;}
 h1,h2{
     margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .profile{
+        margin: -15vh 0 0 -30vh;
+        height: 10vh;
+        width: 10vh;
+    }
+    .box{
+        height: 30vh;
+        width: 40vh;
+        margin-top: 15vh;
+        margin-left: -5vh;
+    }
+    .intro{
+        margin: -3vh 0 0 0;
+        font-weight: 100;
+    }
+    h1{font-size: 1em;}
+    h2{font-size: .8em;}
+    
 }

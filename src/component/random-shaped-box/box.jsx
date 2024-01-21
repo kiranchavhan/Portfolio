@@ -1,5 +1,6 @@
 import React from "react";  
 import './box.css'
+import{ motion } from 'framer-motion'
 import Typewriter from "typewriter-effect";
 
 import kiraa from '../../media/images/kiraa.png'
@@ -10,7 +11,7 @@ const Box = () => {
     return (
         <>
             <div className='box'>
-                <img src={kiraa} alt='profile' className='profile'/>
+                <motion.img whileHover={{scale:1.2}} src={kiraa} alt='profile' className='profile'/>
                 <div className='intro'>
                     <h2>Hi, I am</h2>
                     <h1>Kiran Chavhan</h1>
