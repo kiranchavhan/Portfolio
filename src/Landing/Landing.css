@@ -1,7 +1,8 @@
-.landing{
-    position: fixed;
-    flex-basis: auto;
-    display: block;
-    margin: 50%;
-    
+.landing {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
 }
